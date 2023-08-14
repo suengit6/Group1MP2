@@ -63,7 +63,7 @@ body{
 }
 .card-pic{
     background-color: #ffffffc5;
-    height: 50vh;
+    height: auto;
     width:100%;
     display: flex;
     justify-content: space-evenly;
@@ -106,7 +106,6 @@ body{
     background-color: #ffd6ce;
 }
 
-
 .container-4{
     padding-top: 2rem!important;
     margin-top: 0!important;
@@ -142,4 +141,18 @@ body{
 }
 .carousel-control-prev , .carousel-control-next {
     margin: 0 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+    .custom-carousel-inner{
+        padding: 0;
+    }
+    .custom-card{
+        padding: 0;
+    }
+    .custom-card img{
+        padding: 10px;
+    }
+    .custom-card h5{
+        font-size: 1rem;
+    }
 }
